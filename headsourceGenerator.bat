@@ -1,9 +1,9 @@
 @echo off
-set /p name=ÇëÊäÈëÎÄ¼þÃû:
-echo ÄãÊäÈëµÄÊÇ%name%
+set /p name=è¯·è¾“å…¥æ–‡ä»¶å:
+echo ä½ è¾“å…¥çš„æ˜¯%name%
 echo #ifndef __%name%_H__ > %name%.h
 echo #define __%name%_H__ >> %name%.h
 echo. >> %name%.h
 echo. >> %name%.h
-echo #ifndef __%name%_H__ >> %name%.h
+echo #endif __%name%_H__ >> %name%.h
 echo #include "%name%.h" > %name%.cpp
